@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 // Product (Shopping Website)
@@ -53,9 +54,9 @@ int main() {
     // camera.mrp = 100;
     // camera.selling_price = 200;
     // camera.setMrp(100);
-    // camera.setSellingPrice(99);
+    // camera.setSellingPrice(190);
 
-    cout << sizeof(camera) << endl;
+    // cout << sizeof(camera) << endl;
     cout << "MRP "<< camera.getMrp() << endl;
     cout << "Selling price " << camera.getSellingPrice() << endl;
 }
